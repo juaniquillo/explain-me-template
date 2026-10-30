@@ -7,14 +7,18 @@ Each week: pick one piece of tech you worked on but don't fully understand → c
 ## Use this template
 
 1. GitHub → `Use this template` → name it `explain-me-<topic>`
-2. Fill `TOPIC.md` (short or long, as needed)
+2. Fill `TOPIC.md` fully — short or long as needed, no `<!-- ... -->` left. Include the origin link.
 3. Fill tech-specific `AGENTS.md` under `## Per-topic overrides`
-4. Paste `prompt.md` as your first prompt to the model
-5. Build the `src/` demo (one concept, single run command, no deps)
+4. Paste `prompt.md` as your first prompt to the model (stay in build mode for the lesson)
+5. Build the `src/` demo (one concept, one primary run command, deps with versions + why)
 6. Fill `README.md` explanation sections below
-7. Copy `LOG-ENTRY.md` row into your central log
+7. Append `SESSION.md` per round, copy `LOG-ENTRY.md` row into your central log
+
+Note: repo rulesets don't copy via `Use this template` — re-import the ruleset JSON in each lesson or use an org-level ruleset for `explain-me-*`.
 
 ## Explanation format (fill per-topic)
+
+Pick the elaboration formats that fit (don't force all): overall explanation, usage examples, code walkthrough, interactive examples and graphs.
 
 ### What
 One paragraph: what is this tech?
@@ -23,13 +27,13 @@ One paragraph: what is this tech?
 Why does it exist / what problem does it solve?
 
 ### How demo works
-What the `src/` demo shows, how to run it.
+What the `src/` demo shows, exact run command + env setup.
 
 ### Gotchas
-What confused you, edge cases, common mistakes.
+Answer the confusions in `TOPIC.md` explicitly. Edge cases, common mistakes.
 
 ### Sources
-Links you actually used.
+Link where the tech was originally used (repo, PR, or file) plus docs actually consulted.
 
 ### Template friction
 What felt missing or awkward in this template while doing this lesson?
@@ -37,9 +41,10 @@ What felt missing or awkward in this template while doing this lesson?
 ## Files
 
 - `prompt.md` — universal first prompt (does not change per-topic)
-- `TOPIC.md` — variable part: what you worked on, what you think, what confuses you
+- `TOPIC.md` — variable part: what you worked on, origin link, what you think, what confuses you
 - `AGENTS.md` — base instructions, plus tech-specific notes in each lesson
-- `LOG-ENTRY.md` — table row snippet for central log
+- `SESSION.md` — running session log, appended per round
+- `LOG-ENTRY.md` — table row snippet for central log (the pointer; transcript stays in `SESSION.md`)
 - `src/README.md` — demo rules
 
 ## Evolving this template
