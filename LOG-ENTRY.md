@@ -1,6 +1,6 @@
 # LOG-ENTRY.md
 
-Copy this row into your central log. One row per lesson.
+Copy this row into your central log (set location here: <!-- e.g. `explain-me-log/README.md` -->). One row per lesson.
 
 | Date | Repo | Topic | Summary |
 | ---- | ---- | ----- | ------- |
