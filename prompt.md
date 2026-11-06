@@ -8,7 +8,7 @@ Step 0 — resolve placeholders before explaining. `TOPIC.md` must be fully fill
 
 Then read `TOPIC.md` and `AGENTS.md` in this repo.
 
-Explain the topic in `TOPIC.md` for someone who has used it but doesn't understand it.
+Explain the topic in `TOPIC.md` for a competent engineer who is new to this language/stack. Assume general fluency (no hand-holding on basics); explain every stack-specific idiom, jargon term, and piece of implicit context on first use, with a familiar analogue where one exists.
 
 Pick the elaboration formats that fit this tech best (don't force all of them):
 - overall explanation
@@ -19,8 +19,8 @@ Pick the elaboration formats that fit this tech best (don't force all of them):
 Plus always: gotchas / edge cases — answer the confusions in `TOPIC.md` explicitly.
 
 Then:
-1. Build a minimal demo in `src/` following `src/README.md` (one concept, one primary run command, minimal deps with versions + why each is needed, env requirements recorded).
-2. Fill `README.md` sections: What / Why / How demo works / Gotchas / Sources (+ Template friction).
+1. Build a minimal demo in `src/` following `src/README.md` (one concept, one primary run command, minimal deps with versions + why each is needed, env requirements recorded), plus the `Delivery` vehicle from `TOPIC.md` (default: static site).
+2. Fill `README.md` sections following the conformance rules in `AGENTS.md`: What / Why / How demo works / Gotchas / Sources (+ Template friction).
 3. Fill tech-specific notes in `AGENTS.md` under `## Per-topic overrides`.
 4. Append the session to `SESSION.md` (one entry per prompt/response round).
 5. Propose a 2-3 line human summary for `LOG-ENTRY.md`.

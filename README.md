@@ -7,18 +7,14 @@ Each week: pick one piece of tech you worked on but don't fully understand → c
 ## Use this template
 
 1. GitHub → `Use this template` → name it `explain-me-<topic>`
-2. Fill `TOPIC.md` fully — short or long as needed, no `<!-- ... -->` left. Include the origin link.
+2. Fill `TOPIC.md` (short or long, as needed)
 3. Fill tech-specific `AGENTS.md` under `## Per-topic overrides`
-4. Paste `prompt.md` as your first prompt to the model (stay in build mode for the lesson)
+4. Paste `prompt.md` as your first prompt to the model
 5. Build the `src/` demo (one concept, one primary run command, deps with versions + why)
 6. Fill `README.md` explanation sections below
 7. Append `SESSION.md` per round, copy `LOG-ENTRY.md` row into your central log
 
-Note: repo rulesets don't copy via `Use this template` — re-import the ruleset JSON in each lesson or use an org-level ruleset for `explain-me-*`.
-
 ## Explanation format (fill per-topic)
-
-Pick the elaboration formats that fit (don't force all): overall explanation, usage examples, code walkthrough, interactive examples and graphs.
 
 ### What
 One paragraph: what is this tech?
@@ -27,13 +23,13 @@ One paragraph: what is this tech?
 Why does it exist / what problem does it solve?
 
 ### How demo works
-What the `src/` demo shows, exact run command + env setup.
+What the `src/` demo shows. Then: `sh` fence with run + verify commands, env line (runtime version, deps, `.env` or none), and build-output (servable) or no-build (CLI) statement.
 
 ### Gotchas
-Answer the confusions in `TOPIC.md` explicitly. Edge cases, common mistakes.
+Answer the confusions in `TOPIC.md` explicitly, as dash bullets with `file:line` refs. Edge cases, common mistakes.
 
 ### Sources
-Link where the tech was originally used (repo, PR, or file) plus docs actually consulted.
+In order: (1) `src/<demo>` (this repo — the thing being explained), (2) origin link from `TOPIC.md`, (3) docs actually consulted.
 
 ### Template friction
 What felt missing or awkward in this template while doing this lesson?
