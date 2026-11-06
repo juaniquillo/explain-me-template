@@ -17,6 +17,7 @@ Verify by execution before calling it done: build, serve + curl, typecheck — o
 - `How demo works`: `sh` fence with run + verify commands, env line (runtime version, deps, `.env` or none), build-output (servable) or no-build (CLI) statement.
 - `Gotchas`: dash bullets with `file:line` refs answering the `TOPIC.md` confusions explicitly.
 - `Sources` order: (1) `src/<demo>` (this repo), (2) origin link, (3) docs consulted.
+- Audience: technical outsider. Never explain general programming; always explain stack-local context.
 
 ## Per-topic overrides
 
@@ -24,6 +25,7 @@ Verify by execution before calling it done: build, serve + curl, typecheck — o
 - Run: `npm run dev` (primary), `npm run build` + `npm run preview`, `npm run typecheck`
 - Deps: `vite@7` (dev server + build), `tailwindcss@4` (demo styling) — why each is needed
 - Env: `.env` location + required vars (e.g. `VITE_SITE_URL`)
+- Delivery: static site (default) / interactive / cli — why this vehicle fits the concept
 - Method for this tech: overall / usage examples / code walkthrough / interactive + graphs / gotchas
 - Gitignore: append the lines your stack needs (e.g. Node: `node_modules/ dist/` / Python: `__pycache__/ .venv/`)
 -->
