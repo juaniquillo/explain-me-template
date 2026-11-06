@@ -2,6 +2,10 @@
 
 Fill this per-lesson before running the first prompt. Short is fine for easy topics, go long for hard ones. Do not leave any `<!-- ... -->` placeholders — if one remains, the agent must stop and ask.
 
+## Tech
+
+<!-- Plain-text name of the tech. Source value for the README title and the explain-me-<topic> repo name; stack details go in AGENTS.md. -->
+
 ## What I worked on
 
 <!-- What tech, where did you touch it? -->

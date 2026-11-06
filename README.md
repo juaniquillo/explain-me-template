@@ -23,7 +23,7 @@ One paragraph: what is this tech?
 Why does it exist / what problem does it solve?
 
 ### How demo works
-What the `src/` demo shows. Then: `sh` fence with run + verify commands, env line (runtime version, deps, `.env` or none), and build-output (`dist/` servable) or no-build (CLI) statement.
+What the `src/` demo shows. Then: `sh` fence with run + verify commands, env line (runtime version, deps, `.env` or none), and build-output (servable) or no-build (CLI) statement.
 
 ### Gotchas
 Answer the confusions in `TOPIC.md` explicitly, as dash bullets with `file:line` refs. Edge cases, common mistakes.

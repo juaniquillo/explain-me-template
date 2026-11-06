@@ -14,7 +14,7 @@ Verify by execution before calling it done: build, serve + curl, typecheck — o
 
 - Title: `# explain-me-<topic>` + 1-line topic description. Web lessons add `**Live demo:** <url>` under the title; CLI lessons omit it.
 - Elaboration formats (pick fit, don't force all): overall explanation, usage examples, code walkthrough, interactive examples and graphs — plus mandatory gotchas.
-- `How demo works`: `sh` fence with run + verify commands, env line (runtime version, deps, `.env` or none), build-output (`dist/` servable) or no-build (CLI) statement.
+- `How demo works`: `sh` fence with run + verify commands, env line (runtime version, deps, `.env` or none), build-output (servable) or no-build (CLI) statement.
 - `Gotchas`: dash bullets with `file:line` refs answering the `TOPIC.md` confusions explicitly.
 - `Sources` order: (1) `src/<demo>` (this repo), (2) origin link, (3) docs consulted.
 
