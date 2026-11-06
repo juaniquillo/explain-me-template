@@ -20,7 +20,7 @@ Plus always: gotchas / edge cases — answer the confusions in `TOPIC.md` explic
 
 Then:
 1. Build a minimal demo in `src/` following `src/README.md` (one concept, one primary run command, minimal deps with versions + why each is needed, env requirements recorded).
-2. Fill `README.md` sections: What / Why / How demo works / Gotchas / Sources (+ Template friction).
+2. Fill `README.md` sections following the conformance rules in `AGENTS.md`: What / Why / How demo works / Gotchas / Sources (+ Template friction).
 3. Fill tech-specific notes in `AGENTS.md` under `## Per-topic overrides`.
 4. Append the session to `SESSION.md` (one entry per prompt/response round).
 5. Propose a 2-3 line human summary for `LOG-ENTRY.md`.

@@ -10,6 +10,14 @@ Append `SESSION.md` per prompt/response round. Keep the one-row `LOG-ENTRY.md` s
 
 Verify by execution before calling it done: build, serve + curl, typecheck — on a clean checkout, not just the dev server.
 
+## README conformance (every lesson)
+
+- Title: `# explain-me-<topic>` + 1-line topic description. Web lessons add `**Live demo:** <url>` under the title; CLI lessons omit it.
+- Elaboration formats (pick fit, don't force all): overall explanation, usage examples, code walkthrough, interactive examples and graphs — plus mandatory gotchas.
+- `How demo works`: `sh` fence with run + verify commands, env line (runtime version, deps, `.env` or none), build-output (`dist/` servable) or no-build (CLI) statement.
+- `Gotchas`: dash bullets with `file:line` refs answering the `TOPIC.md` confusions explicitly.
+- `Sources` order: (1) `src/<demo>` (this repo), (2) origin link, (3) docs consulted.
+
 ## Per-topic overrides
 
 <!-- Fill per-lesson with stack-specific commands and explanation method. Example:
