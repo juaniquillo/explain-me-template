@@ -2,6 +2,20 @@
 
 Fill this per-lesson before running the first prompt. Short is fine for easy topics, go long for hard ones. Do not leave any `<!-- ... -->` placeholders — if one remains, the agent must stop and ask.
 
+<!-- EXAMPLE (delete before running) — a small filled TOPIC.md:
+## Tech
+URL query strings
+
+## Delivery
+static site
+
+## What I worked on
+Parsing `?page=2&sort=asc` inside a request handler; the framework hands me an opaque object.
+
+## What confuses me / what I need
+Why do repeated keys (`?a=1&a=2`) come back as an array in one framework and last-wins in another?
+-->
+
 ## Tech
 
 <!-- Plain-text name of the tech. Source value for the README title and the explain-me-<topic> repo name; stack details go in AGENTS.md. -->
