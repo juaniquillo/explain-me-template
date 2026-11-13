@@ -1,10 +1,10 @@
 # Universal first prompt
 
-Copy-paste as-is. All variable context lives in `TOPIC.md`. Tech-specific agent instructions live in `AGENTS.md`.
+Agent instructions for explain-me lessons. The user starts the lesson with the first message documented in `README.md`. All variable context lives in `TOPIC.md`. Tech-specific agent instructions live in `AGENTS.md`.
 
 ---
 
-Step 0 — resolve placeholders before explaining. `TOPIC.md` must be fully filled first. If any template comments (`<!-- ... -->`) are still present, stop and ask rather than guessing the tech.
+Step 0 — resolve placeholders before explaining. If `TOPIC.md` is still blank template, take the topic from the user's message as the seed, ask targeted questions to fill Tech / Delivery / Origin / mental model / confusions, write `TOPIC.md`, then proceed. If any template comments (`<!-- ... -->`) are still present after that, stop and ask rather than guessing the tech.
 
 Then read `TOPIC.md` and `AGENTS.md` in this repo.
 
